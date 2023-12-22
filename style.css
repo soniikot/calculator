@@ -1,0 +1,10 @@
+wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    
+
+}
+
+buttons{
+    border:1px solid black;
+}
