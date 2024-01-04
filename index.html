@@ -7,30 +7,33 @@
 
     <h1>Calculator</h1>
     <div class="wrapper">
-        <div class="display"></div>
+        <div class="display">
+            <div data-previous-operand class="previous-operant"></div>
+            <div data-current-operand class="current-operand"></div>
+        </div>
        <div class="break"></div> 
-         <div><button>Clean</button></div> 
-              <div><button>Delete</button></div> 
-       <div><button>Divide</button></div> 
+         <div><button data-all-clear  class="span-two">Clean</button></div> 
+              <div><button data-delete>Delete</button></div> 
+       <div><button data-operation>÷</button></div> 
       <div class="break"></div> 
-          <div> <button class="digitBtn">7</button></div> 
-           <div><button class="digitBtn">8</button></div> 
-          <div> <button class="digitBtn">9</button></div> 
-          <div> <button>x</button></div> 
+          <div> <button data-number>7</button></div> 
+           <div><button data-number>8</button></div> 
+          <div> <button data-number>9</button></div> 
+          <div> <button data-operation>*</button></div> 
       <div class="break"></div> 
-          <div>  <button class="digitBtn">4</button></div> 
-          <div>  <button class="digitBtn">5</button></div> 
-          <div>  <button class="digitBtn">6</button></div> 
-          <div>  <button>-</button></div> 
+          <div>  <button data-number>4</button></div> 
+          <div>  <button data-number>5</button></div> 
+          <div>  <button data-number>6</button></div> 
+          <div>  <button data-operation>-</button></div> 
            <div class="break"></div> 
-          <div>   <button class="digitBtn">1</button></div> 
-          <div>   <button class="digitBtn">2</button></div> 
-          <div>   <button class="digitBtn">3</button></div> 
-          <div>   <button>+</button></div> 
+          <div>   <button data-number>1</button></div> 
+          <div>   <button data-number>2</button></div> 
+          <div>   <button data-number>3</button></div> 
+          <div>   <button data-operation>+</button></div> 
        <div class="break"></div> 
-          <div>   <button class="digitBtn">0</button></div> 
-          <div>   <button class="digitBtn">.</button></div> 
-          <div>   <button>=</button></div> 
+          <div>   <button data-number>0</button></div> 
+          <div>   <button data-number>.</button></div> 
+          <div>   <button data-equals class="span-two">=</button></div> 
       
        </div>
     
